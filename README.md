@@ -1,4 +1,4 @@
-# IIM - Inoperability Input-Output Model
+# IIM - Inoperability Input-Output Model [![Build Status](https://travis-ci.org/stigrs/iim.svg?branch=master)](https://travis-ci.org/stigrs/iim) 
 
 IIM provides the Static Demand-Driven and Supply-Driven Inoperability 
 Input-Output Models (IIM) for Interdependent Infrastructure Sectors as 
