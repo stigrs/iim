@@ -33,7 +33,7 @@ IIM is released under the [MIT](LICENSE) license.
 
 The source code can be obtained from:
 
-    git clone git@gitlabu.ffi.no:srs/iim.git
+    git clone git@github.com:stigrs/iim.git
 
 ## Requirements
 
