@@ -33,7 +33,7 @@ IIM is released under the [MIT](LICENSE) license.
 
 The source code can be obtained from:
 
-  git clone git@gitlabu.ffi.no:srs/iim.git
+    git clone git@gitlabu.ffi.no:srs/iim.git
 
 ## Requirements
 
@@ -44,8 +44,8 @@ The source code can be obtained from:
 
 The program is install by executing:
 
-  python setup.py install --prefix=%USERPROFILE%
+    python setup.py install --prefix=%USERPROFILE%
 
 Testing of the program can be done by:
 
-  python setup.py test
+    python setup.py test
