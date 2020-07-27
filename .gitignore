@@ -1,0 +1,13 @@
+# Files:
+*~
+*.swp
+*.tmp
+tmp.*
+
+# Directories:
+__pycache__
+build
+dist 
+iim.egg-info
+.ipynb_checkpoints
+.vscode
