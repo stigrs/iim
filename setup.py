@@ -14,7 +14,7 @@ setuptools.setup(
     author_email="stig-rune.sellevag@ffi.no",
     license="MIT License",
     description="Inoperability Input-Output Model",
-    url="git@gitlabu.ffi.no:srs/iim.git",
+    url="git@github.com:stigrs/iim.git",
     packages=setuptools.find_packages(),
     install_requires= [
         "numpy",
