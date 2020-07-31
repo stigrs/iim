@@ -39,6 +39,8 @@ The source code can be obtained from:
 
 * [Python](https://docs.python.org/3/) 3.6
 * [NumPy](http://www.numpy.org/)
+* [Pandas](https://pandas.pydata.org)
+* [Matplotlib](https://matplotlib.org)
 
 ## Installation
 
