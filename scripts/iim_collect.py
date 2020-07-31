@@ -10,7 +10,7 @@
 
 Structure of input file:
 
-PerturbedSector1 PerturbedSector 2 PerturbedSectorN
+PerturbedSector1 PerturbedSector2 PerturbedSectorN
 FilenameRun1
 FilenameRun2
 FilenameRunN
