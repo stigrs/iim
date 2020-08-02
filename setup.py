@@ -7,6 +7,12 @@
 import setuptools
 
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+with open("requirements.txt", "r") as fh:
+    requirements = fh.readlines()
+
 setuptools.setup(
     name="iim", 
     version="0.1",
@@ -14,13 +20,11 @@ setuptools.setup(
     author_email="stig-rune.sellevag@ffi.no",
     license="MIT License",
     description="Inoperability Input-Output Model",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="git@github.com:stigrs/iim.git",
     packages=setuptools.find_packages(),
-    install_requires= [
-        "numpy",
-        "matplotlib",
-        "pandas"
-    ],
+    install_requires=[req for req in requirements if req[:2] != "# "],
     scripts=["scripts/iim_run.py", "scripts/iim_collect.py", 
              "scripts/iim_nth_order_dep.py"],
     classifiers=[
@@ -30,3 +34,4 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
 )
+

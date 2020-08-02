@@ -31,7 +31,7 @@ def _check_input(psector, cvalue):
 def parse_arguments():
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(
-        description="Demand-Driven Inoperability Input-Output Model")
+        description="Inoperability Input-Output Model")
     parser.add_argument("-f", "--file",
                         action="store",
                         dest="filename",
